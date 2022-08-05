@@ -1,13 +1,49 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&family=Baloo+Bhai+2:wght@500&family=Comfortaa:wght@500&family=Comforter&family=Fredoka:wght@300;400&family=Grenze+Gotisch:wght@400;500&family=Montserrat+Alternates&family=Montserrat:wght@400;500&family=Mulish:wght@300&family=Poiret+One&family=Poppins:wght@300;400;500&family=Rock+Salt&family=Shadows+Into+Light&family=Ubuntu&display=swap'); */
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  /* font-family: 'Poppins', sans-serif; */
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+    sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(167, 78, 34);
 }
 
-code {
+.navbar-brand{
+  border-bottom: 2px solid black;
+  /* border-right: 1px solid black; */
+}
+
+/* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} */
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.container-fluid a {
+  color: black;
+}
+
+.menu-active {
+  /* font-weight: bold; */
+  border-bottom: 1px solid royalblue;
+}
+
+.h1 {
+  color: tomato;
+}
+
+.container-fluid a:hover {
+  color: blueviolet;
+  /* font-weight: bold; */
+  border-bottom: 1px solid royalblue;
+
+}
+
+.containerrr {
+  margin-top: 71px;
 }

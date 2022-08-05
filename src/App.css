@@ -36,3 +36,36 @@
     transform: rotate(360deg);
   }
 }
+
+.dark-theme{
+  --main-heading : #44D62C;
+  --para-color : #fff;
+  --btn-bg-color: red;
+  --btn-text-color : #fff;
+  --bg-color : #1f2b4b;
+}
+
+.light-theme{
+  --main-heading : #44D62C;
+  --para-color : rgb(0, 0, 0);
+  --btn-bg-color: rgb(88, 85, 85);
+  --btn-text-color : rgb(0, 0, 0);
+  --bg-color : #ffffff;
+}
+
+h1{
+  color: var(--main-heading);
+}
+
+h3{
+  color: var(--para-color);
+}
+
+.btn{
+  background-color: var(--btn-bg-color);
+  color: var(--btn-text-color);
+}
+Header{
+  background-color: var(--bg-color);
+}
+
